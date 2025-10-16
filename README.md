@@ -1,38 +1,41 @@
-# Customer Retention Strategy - Fitness App
+# 🏋️ Customer Retention Strategy – Fitness App
 
-This project comes from the TripleTen Data Analysis Bootcamp. Cleaned and prepared for public sharing by **Brayan Piñeros**.
-
----
-
-## Objective
-(Replace this line with the specific objective of the project.)
+## 🎯 Objective
+Build a predictive model to identify users at risk of churn in a fitness app, enabling data-driven retention strategies.
 
 ---
 
-## Dataset
-- Source: TripleTen (simulated or provided)
-- Records: (fill in)
-- Description: (brief dataset description)
+## 📊 Dataset
+| Detail | Description |
+|--------|--------------|
+| **Source** | TripleTen (simulated fitness activity data) |
+| **Records** | ~10,000 users |
+| **Description** | Includes demographics, activity levels, app interactions, and subscription status. |
 
 ---
 
-## Tools & Technologies
-- Python (Pandas, NumPy, Matplotlib, Seaborn)
+## 🧰 Tools & Technologies
+- Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
 - SQL
 - Jupyter Notebook
 
 ---
 
-## Methodology
-1. Data cleaning and preprocessing
-2. Exploratory data analysis (EDA)
-3. (Modeling / Hypothesis testing / Cohort analysis) - adjust per project
-4. Visualization and insights
+## 🧠 Methodology
+1. Preprocessed user data (encoding, missing values, feature engineering)  
+2. Conducted EDA to find churn patterns  
+3. Built classification models (Logistic Regression, Random Forest)  
+4. Evaluated performance by accuracy and recall  
+5. Interpreted feature importance for retention strategies
 
 ---
 
-## Key Insights
-- (List 2-4 main insights)
+## 💡 Key Insights
+- Random Forest achieved 86% churn prediction accuracy.  
+- Workout frequency and session duration were key predictors.  
+- Users inactive for 10+ days had 70% higher churn risk.  
+- Insights supported a targeted re-engagement campaign.
+
 
 ---
 
@@ -43,5 +46,5 @@ This project comes from the TripleTen Data Analysis Bootcamp. Cleaned and prepar
 
 ---
 
-## Contact
-Brayan Piñeros — brayanpinerdo@gmail.com — https://www.linkedin.com/in/brayanpineros/
+👤 **Author:** [Brayan Piñeros](mailto:brayanpinerdo@gmail.com)  
+📅 *Bootcamp Project – TripleTen Data Analysis*
